@@ -104,7 +104,7 @@ pb <- progress_bar$new(
   total = 100, clear = FALSE, width= 60)
 for (i in 1:100) {
   pb$tick()
-  Sys.sleep(ineractive() / 100)
+  Sys.sleep(interactive() / 100)
 }
 
 ## Spinner
